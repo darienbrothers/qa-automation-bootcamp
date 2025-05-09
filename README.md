@@ -1,58 +1,63 @@
-# 🧪 QA Automation Bootcamp 2025 - Python + Selenium Edition
+# 🧪 QA Automation Bootcamp 2025 - Python + Appium + API + BDD
 
 **Author:** Darien Brothers  
-**Goal:** Become a job-ready SDET in 6 weeks using Python, Selenium, GitHub, and hands-on automation projects.
+**Goal:** Become a job-ready SDET in 6 weeks using Python, Appium, API testing, GitHub, and behavior-driven development — all through real-world automation labs.
 
 ---
 
-## 📅 6-Week Curriculum Breakdown
+## 📅 6-Week Curriculum Overview
 
 ### ✅ Week 1: Python Foundations
 - Variables, loops, functions, exceptions
-- Build CLI test tools
-- Markdown + GitHub commit daily
+- File handling and CLI tools
+- Markdown notes + GitHub commits daily
 
-### ✅ Week 2: Selenium WebDriver
-- Automate browser navigation
-- Interact with elements
-- Write test scripts
+### ✅ Week 2: Appium Mobile Automation (Python)
+- Setup Appium + Inspector
+- Connect to emulators or real devices
+- Automate mobile interactions (iOS & Android)
+- Locate elements using `accessibility_id`, `xpath`, `id`, `class`
 
-### ✅ Week 3: Framework Design
-- Build a POM framework
-- Test suite structure
-- Reusable page classes
+### ✅ Week 3: Page Object Model (POM) + Framework
+- Reusable page classes (POM)
+- Test execution and teardown flows
+- Capture screenshots, logging, and utilities
+- Organize code structure for scalability
 
-### ✅ Week 4: PyTest + GitHub CI
-- Convert to PyTest
-- GitHub Actions integration
-- Reporting (pytest-html, Allure)
+### ✅ Week 4: API Testing (Python + requests + Pytest)
+- REST API test automation (GET, POST, PUT, DELETE)
+- Auth testing (Bearer, Basic)
+- JSON schema validation
+- Pytest structure + report generation
 
-### ✅ Week 5: Cloud + Multi-Browser
-- Headless execution
-- BrowserStack testing
-- Complex test flows
+### ✅ Week 5: Gherkin + BDD (Behave)
+- Write `.feature` files
+- Build step definitions
+- Link BDD to Appium + API layers
+- Human-readable test automation
 
-### ✅ Week 6: Performance + Projects
-- Locust or JMeter basics
-- Final portfolio project
-- Resume, GitHub profile polish
+### ✅ Week 6: Final Project + CI + Reporting
+- Build full-stack automation project
+- Generate HTML reports
+- Document repo for GitHub + resume
+- Prepare for job interviews with polished demo
 
 ---
 
 ## 📂 Folder Structure
 
 qa-automation-bootcamp/
-├── venv/
-├── LABS/
+├── venv/ # Virtual environment
+├── LABS/ # All hands-on labs by week/day
 │ └── weekX_dayY/
-├── NOTES/
+├── NOTES/ # Markdown notes per day
 │ └── weekX_dayY_notes.md
-├── week1/ → Python labs
-├── week2/ → Selenium labs
-├── week3/ → Framework & POM
-├── week4/ → PyTest + CI/CD
-├── week5/ → Cross-browser testing
-├── week6/ → Performance + Resume
+├── week1/ # Python Foundations
+├── week2/ # Appium Setup + Mobile UI
+├── week3/ # Page Objects + Framework
+├── week4/ # API Testing (requests + PyTest)
+├── week5/ # BDD (Behave + Gherkin)
+├── week6/ # Final Project + CI + Reporting
 └── README.md
 
 
@@ -60,22 +65,28 @@ qa-automation-bootcamp/
 
 ## 📚 Tools Used
 
-- Python 3.11+
-- Selenium WebDriver
-- PyTest
-- Git + GitHub
-- Markdown for notes
-- VS Code
-- GitHub Actions
-- BrowserStack or LambdaTest
-- Locust or JMeter
+- **Python 3.11+**
+- **Appium + Appium Inspector** (iOS/Android)
+- **requests** (API testing)
+- **Pytest** (unit & integration tests)
+- **Behave** (BDD/Gherkin testing)
+- **VS Code**
+- **Git + GitHub**
+- **GitHub Actions (CI)**
+- **HTML reports / Allure (optional)**
+- **Markdown for documentation**
 
 ---
 
 ## ✅ Git Workflow
 
 ```bash
+# Create a new branch for each day
 git checkout -b week1_day1
+
+# Stage and commit your changes
 git add .
 git commit -m "add: week1_day1 hello world setup"
+
+# Push to GitHub
 git push origin week1_day1
