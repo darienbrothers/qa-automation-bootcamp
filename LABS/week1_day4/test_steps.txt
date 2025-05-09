@@ -1,0 +1,4 @@
+Step 1: Open browser
+Step 2: Go to login page
+Step 3: Enter username and password
+Step 4: Click login

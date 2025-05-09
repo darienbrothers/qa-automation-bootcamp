@@ -1,0 +1,9 @@
+{
+    "test_name": "Login Test",
+    "steps": [
+        "Open browser",
+        "Enter credentials",
+        "Submit"
+    ],
+    "expected_result": "Dashboard should load"
+}
